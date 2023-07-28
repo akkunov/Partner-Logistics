@@ -1,0 +1,31 @@
+.footer{
+    width: 100vm;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 100px 40px 100px 40px;
+}
+
+.items{
+    max-width: 500px;
+    height: auto;
+}
+
+.items li{
+    list-style-type: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: auto;
+    position: relative;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: start;
+}

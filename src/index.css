@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --bx-shadow: 10px 10px 10px 5px rgba(34, 60, 80, 0.3);
+}

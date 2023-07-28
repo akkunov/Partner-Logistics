@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    padding-right: 5rem;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 4em;
+    height: 20vh;
+}
+
+header div{
+    width: auto; /* 39px */
+    height: auto; /* 20px */
+    text-align: center;
+    padding-top: 10px;
+    backdrop-filter: blur(10px);
+
+}
+
+
+header div h2{
+    padding: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    white-space: pre;
+}
+header div h2:hover {
+    color: #61dafb;
+    text-underline-position: from-font;
+
+}
