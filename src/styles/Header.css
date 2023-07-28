@@ -14,7 +14,6 @@ header div{
     text-align: center;
     padding-top: 10px;
     backdrop-filter: blur(10px);
-
 }
 
 
@@ -36,4 +35,13 @@ header div h2:hover {
     color: #61dafb;
     text-underline-position: from-font;
 
+}
+
+@media (max-width: 512px) {
+    header{
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }
 }
